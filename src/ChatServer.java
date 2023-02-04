@@ -15,7 +15,7 @@ public class ChatServer {
 
     public void run(){
         try {
-            System.out.println("waiting");
+            System.out.println("Waiting");
             while(true) {
                 Socket socket = serverSocket.accept();
                 System.out.println("Client connected");
